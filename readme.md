@@ -36,10 +36,10 @@ We are fine-tuning an instruct model, and the data is structured in JSON format 
 
 ```json
 {
-    "instruction": "Break down how to find the smallest measurable mass using LCM",
-    "input": "4. Find the smallest mass that can be measured out in equal amounts of $10 \\mathrm{~g}$, $14 \\mathrm{~g}$, and $22 \\mathrm{~g}$.",
-    "output": "**Step 1:** Factor each mass\n- $10 = 2 \\times 5$\n- $14 = 2 \\times 7$\n- $22 = 2 \\times 11$\n\n**Step 2:** Identify LCM\nMultiply the highest powers of all prime factors: $2^1 \\times 5^1 \\times 7^1 \\times 11^1 = 770$\n\n\boxed{770 \\text{ g}}\n\n⚠️ Common error: Confusing LCM with GCD (which gives the greatest common divisor instead of the smallest multiple)"
-}
+    "instruction": "Explain place value using a Nigerian context example.",
+    "input": "Place value is an important concept that is often misunderstood and sometimes misplaced. The decimal system depends on place value. This means, the value of a digit varies depending on its position. For instance in 345, the number '4' stands for forty or 4 tens whilst in 453 the value of the number '4' is four hundred. In 534 , the value of '4' is simply four since it is in the unit position. In 4350 , the value of 4 is four thousand since it is in thousands position. The numeral 82537 has 5 digits. This is read as 'eighty two thousand, five hundred and thirty seven. These five digits represent number of ones, a number tens, the number of hundreds, a number thousands and a number ten thousands. Table 1.1 shows the place value and the value of the digits in the numeral 82537.",
+    "output": "Imagine you are sharing money with your friends. If you have ₦345, the 3 represents 300 Naira, the 4 represents 40 Naira, and the 5 represents 5 Naira. The *position* of the digit tells you how much it's worth! That's place value. So, the '4' in ₦345 is different from the '4' in ₦453, where it stands for 400 Naira. The '4' in ₦534 means only 4 Naira.\n\nIf you had ₦4350, the '4' means 4000 Naira. So, the same digit '4' can have different values depending on where it is in the number. Always remember to consider where the number is placed."
+  },
 ```
 
 ## Contributing
