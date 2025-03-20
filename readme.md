@@ -48,7 +48,7 @@ We welcome contributions of all kinds!  Whether you're a data scientist, teacher
 
 ## License
 
-This project is licensed under the [Specify License, e.g., Apache 2.0 or MIT License]. See the `LICENSE` file for more details.
+This project is licensed under the  Apache 2.0 or MIT License. See the `LICENSE` file for more details.
 
 ## Contact
 
