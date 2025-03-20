@@ -33,7 +33,7 @@ We are fine-tuning an instruct model, and the data is structured in JSON format 
 
 **Example:**
 
-```json
+
 {
     "instruction": "Break down how to find the smallest measurable mass using LCM",
     "input": "4. Find the smallest mass that can be measured out in equal amounts of $10 \\mathrm{~g}$, $14 \\mathrm{~g}$, and $22 \\mathrm{~g}$.",
@@ -62,4 +62,3 @@ For any questions or inquiries, please contact the Cereloop team at info@cereloo
 
 We believe that this project has the potential to make a significant impact on education in Nigeria. We are excited to have you join us on this journey!
 
-```
