@@ -34,11 +34,13 @@ We are fine-tuning an instruct model, and the data is structured in JSON format 
 **Example:**
 
 
+```json
 {
     "instruction": "Break down how to find the smallest measurable mass using LCM",
     "input": "4. Find the smallest mass that can be measured out in equal amounts of $10 \\mathrm{~g}$, $14 \\mathrm{~g}$, and $22 \\mathrm{~g}$.",
     "output": "**Step 1:** Factor each mass\n- $10 = 2 \\times 5$\n- $14 = 2 \\times 7$\n- $22 = 2 \\times 11$\n\n**Step 2:** Identify LCM\nMultiply the highest powers of all prime factors: $2^1 \\times 5^1 \\times 7^1 \\times 11^1 = 770$\n\n\boxed{770 \\text{ g}}\n\n⚠️ Common error: Confusing LCM with GCD (which gives the greatest common divisor instead of the smallest multiple)"
 }
+```
 
 ## Contributing
 We welcome contributions of all kinds!  Whether you're a data scientist, teacher, student, or just someone who cares about education in Nigeria, we encourage you to get involved.
